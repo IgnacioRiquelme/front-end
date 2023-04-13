@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap 2</title>
+</head>
+
+
+<body>
+  <div class="bg-primary text-white mt-4 p-5 container">
+    <h1>Ejemplo Jumbotron</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni atque dicta, blanditiis a velit nemo illum reprehenderit sequi illo nostrum, dolorem impedit explicabo deserunt unde sunt maxime! Laborum, deleniti ut.</p>
+  </div>
+
+    <div class ="contenedor"><br><br>
+    <form action="pagina_dos.html" class="row">
+        <div class="form-group col-md-4">
+          <p><label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputEmail4" value="" required placeholder="Juan"></p>
+        </div>
+        <div class="form-group col-md-4">
+          <p><label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="inputPassword4" value="" required placeholder="Perez"></p>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="validationCustomUsername" class="form-label">Usuario</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required placeholder="juanini">
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="form-group col-md-6">
+            <p><label for="ciudad" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="inputPassword4" value="" required placeholder="Santiago"></p>
+          </div>
+        <div class="form-group col-md-4">
+          <label for="inputState" class="form-label">Motivo</label>
+          <select id="inputState" class="form-select"> 
+            <option selected value="deposito">Deposito</option>
+            <option value="giro">Giro</option>
+            <option value="consulta_saldo">Consulta de Saldo</option>
+          </select><br><br>
+        </div>
+        <h7>¿Desea ver la respuesta en pantalla?</h7>
+        <div class="form-group col-md-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                <p>Si</p>
+              </label>
+            </div>
+          </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-secondary">Solicitar</button>
+        </div>
+      </form>
+    </div>
+
+
+    <!--Javascript o bootstrap bundle, bootstrap popper-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"                                           integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous">
+    </script>  
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+/* Selectores */
+/* Selectores de id  - #bombreId*/
+/* Selectores de calse - .nombreClase */
+/* Selectores de etiquetas - div */
+/* Selectores universales - * - asterisco * */
+
+#text1 {
+    background-color: blueviolet;
+}
+
+#text2{
+    background-color: #ff7f50;
+    width: 50%;
+    display: none;
+}
+
