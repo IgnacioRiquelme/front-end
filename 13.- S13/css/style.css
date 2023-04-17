@@ -1,0 +1,30 @@
+*{margin: 0;padding: 0;
+box-sizing: border-box;}
+
+.header{width:100%;
+background-image: linear-gradient(to right,#aca8e2,#0b1355);
+align-items: center;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+.navbar-nav{
+    align-items: center;
+}
+.nav-link{
+    color: white!important;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.navbar .navbar-nav .nav-link {
+    color:white;
+    font-size: 1.1em;
+    padding: 0 1em;
+}
+body{
+    background-color: rgb(199, 226, 233);
+    font-family: sans-serif;
+    margin: 0;
+}
+
