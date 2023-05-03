@@ -45,10 +45,10 @@
     </section>
 
     <!-- cartas -->
-    <section class="container mt-4">
+    <section class="container mt-6">
         <div class="row row-cols-1 row-cols-md-3 g-6">
             <!-- primera carta -->
-            <div class="col my-2">
+            <div class="col my-6 m-auto">
               <div class="card h-100">
                 <img src="https://i.postimg.cc/44crbz5p/bebidas.jpg" class="card-img-top object-fit-cover" alt="bebidas" style="height: 20vw;">
                 <div class="card-body">
@@ -58,7 +58,7 @@
               </div>
             </div>
             <!-- segunda carta -->
-            <div class="col my-2">
+            <div class="col my-6 m-auto">
               <div class="card h-100">
                 <img src="https://i.postimg.cc/FHr84wQx/tablas.jpg" class="card-img-top object-fit-cover" alt="tablas" style="height: 20vw;">
                 <div class="card-body">
@@ -68,7 +68,7 @@
               </div>
             </div>
             <!-- tercera carta -->
-            <div class="col my-2">
+            <div class="col my-6 m-auto">
               <div class="card h-100">
                 <img src="https://i.postimg.cc/KvrwCxCz/shop.jpg" class="card-img-top object-fit-cover" alt="shops" style="height: 20vw;">
                 <div class="card-body">
@@ -99,14 +99,15 @@
                   <label for="telefono" class="form-label">Teléfono</label>
                   <input type="tel" class="form-control" id="telefono" placeholder="956000890">
                 </div>
-                <select class="form-select mb-3" aria-label="select"><!--selector-->
+                
+                <div class="mb-3"><!--comentarios-->
+                  <label for="floatingTextarea">Comentarios</label>
+                  <select class="form-select mb-3" aria-label="select"><!--selector-->
                   <option selected>Motivos</option>
                   <option value="1">Felicitaciones</option>
                   <option value="2">Reclamos</option>
                   <option value="3">Sugerencias</option>
                 </select>
-                <div class="mb-3"><!--comentarios-->
-                  <label for="floatingTextarea">Comentarios</label>
                   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                 </div>
                 <!-- boton -->
